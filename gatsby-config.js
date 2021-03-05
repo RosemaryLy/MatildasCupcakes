@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Gatsby Bootstrap Template",
+    title: "Matildas Cupcake Emporium",
   },
   pathPrefix: `/gatsby-bootstrap-template`,
   plugins: [

@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout>
-    <Container>
-      <Jumbotron>
+    <Container fluid>
+      <Jumbotron fluid>
         <h1>Hello, world!</h1>
         <p>
           Basic starter template for Gatsby with Bootstrap 4.
