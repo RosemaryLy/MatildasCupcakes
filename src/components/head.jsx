@@ -4,11 +4,11 @@ import { Helmet } from "react-helmet"
 export function Head({ data }) {
   return (
     <Helmet
-      title="Gatsby Bootstrap Template"
+      title="Matilda's Cupcake Emporium"
       meta={[
         {
           name: "description",
-          content: "Gatsby Bootstrap Template",
+          content: "Landing page for cupcake store",
         },
         {
           name: "keywords",

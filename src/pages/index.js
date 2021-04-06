@@ -7,9 +7,7 @@ export default () => (
     <Container fluid>
       <Jumbotron fluid>
         <h1>Hello, world!</h1>
-        <p>
-          Basic starter template for Gatsby with Bootstrap 4.
-        </p>
+        <video src="../assets/cucpakecute.mp4" muted loop autoPlay></video>
         <p>
           <Button variant="primary">Sample Button</Button>
         </p>
