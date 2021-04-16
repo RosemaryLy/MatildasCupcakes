@@ -1,10 +1,18 @@
 import React from "react"
-import { Container } from "react-bootstrap"
+import { Col, Container, Row} from "react-bootstrap"
+import logo from '../assets/MatildasCupcakes.png'
 
 export function Header(props) {
   return (
     <Container>
-      <h1 class="text-center">Matilda's Cupcake Emporium</h1>
+   <Row>
+     <Col sm></Col>
+     <Col sm>
+  <img class="center-block" src={logo} alt="logo for Matilda's Cupcake"></img>
+  </Col>
+  <Col sm></Col>
+    </Row>
     </Container>
+
   )
 }
