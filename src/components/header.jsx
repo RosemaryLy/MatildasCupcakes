@@ -8,7 +8,7 @@ export function Header(props) {
    <Row>
      <Col sm></Col>
      <Col sm>
-  <img class="center-block" src={logo} alt="logo for Matilda's Cupcake"></img>
+  <img className="center-block" src={logo} alt="logo for Matilda's Cupcake"></img>
   </Col>
   <Col sm></Col>
     </Row>

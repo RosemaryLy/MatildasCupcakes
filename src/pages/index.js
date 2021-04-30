@@ -8,8 +8,8 @@ export default () => (
   <Layout>
      <Navigation/>
     <Container fluid>
-      <Jumbotron fluid>
-        <video muted loop autoPlay>
+      <Jumbotron>
+        <video id="video-background" muted loop autoPlay>
           <source src={cupcakeCut} type="video/mp4" />
         </video>
         <p>
