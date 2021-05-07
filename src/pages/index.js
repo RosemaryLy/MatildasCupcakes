@@ -1,5 +1,5 @@
 import React from "react"
-import { Container,Jumbotron } from "react-bootstrap"
+import { Container,Jumbotron} from "react-bootstrap"
 import Layout from "../components/layout"
 import Section from "../components/section"
 import cupcakeCut from "../assets/cupcakecut.mp4"
@@ -9,10 +9,11 @@ export default () => (
   <Layout>
      <Navigation/>
     <Container fluid>
-      <Jumbotron>
+      <Jumbotron fluid >
         <video id="video-background" muted loop autoPlay>
-          <source src={cupcakeCut} type="video/mp4" />
+          <source src={cupcakeCut} type="video/mp4"  />
         </video>
+       
       </Jumbotron>
     </Container>
     <Section/>
