@@ -1,17 +1,13 @@
 import React from "react"
 import { Col, Container, Row} from "react-bootstrap"
-import logo from '../assets/MatildasCupcakes.png'
 
+// Social Media Header
 export function Header(props) {
   return (
     <Container>
    <Row>
-     <Col sm></Col>
+     <Col sm ></Col>
      <Col sm>
-     <a href="#home">
-  <img className="center-block" src={logo} alt="logo for Matilda's Cupcake">
-  </img>
-  </a>
   </Col>
   <Col sm></Col>
     </Row>
