@@ -1,10 +1,11 @@
-# Gatsby Bootstrap Template
+# Matilda's Cupcake Emporium 
 
-A Gatsby starter template with Bootstrap 4 included.
+A fun and colourful website for a cupcake store! 
 
-## Features
+## Made With
+HTML, CSS, Bootstrap, Gatsby
 
-- Boostrap 4 support out of the box.
-- Comes with React Helmet for adding site meta tags
+## Demo 
 
-Checkout the [demo](https://varunagrawal.github.io/gatsby-bootstrap-template/).
+## Styleguide 
+![styleguide] (src/assets/styleguide.png)
