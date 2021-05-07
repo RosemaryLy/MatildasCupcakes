@@ -7,7 +7,7 @@ export function Footer(props) {
     <Container className="text-center">
       <br/><br/><br/>
       <br/><br/><br/>
-      <p> Built by <Link href="https://github.com/RosemaryLy/">Rosemary Ly</Link> with ♥</p>
+      <p> Built by <Link href="https://github.com/RosemaryLy/MatildasCupcakes">Rosemary Ly</Link> with ♥</p>
     </Container>
   )
 }
