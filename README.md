@@ -8,4 +8,4 @@ HTML, CSS, Bootstrap, Gatsby
 ## Demo 
 
 ## Styleguide 
-![styleguide] (/assets/styleguide.png)
+![styleguide](src/assets/styleguide.png)
