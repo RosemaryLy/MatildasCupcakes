@@ -34,6 +34,21 @@ export function Head({ data }) {
             "sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni",
           crossorigin: "anonymous",
         },
+        {
+          // Lato Font
+          rel: "preconnect",
+          href:
+          "https://fonts.gstatic.com",
+          
+        },
+        {
+          // Lato Font
+          rel: "stylesheet",
+          href:
+          "https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap",
+          
+        },
+      
       ]}
       
     >

@@ -5,7 +5,7 @@ import { Container, Row, Col} from "react-bootstrap"
 export function Header(props) {
   return (
     <Container fluid>
-      <Row fluid>
+      <Row>
         <Col sm={4}>
       <a href="https://twitter.com"><i className="fab fa-twitter"aria-label="Twitter Link"></i></a>
      <a href="https://facebook.com"><i className="fab fa-facebook"aria-label="Facebook Link"></i></a>

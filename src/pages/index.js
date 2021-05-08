@@ -8,7 +8,7 @@ import {Navigation} from "../components/navbar"
 export default () => (
   <Layout>
      <Navigation/>
-    <Container fluid>
+    <Container fluid >
       <Jumbotron fluid >
         <video id="video-background" muted loop autoPlay>
           <source src={cupcakeCut} type="video/mp4"  />
