@@ -1,7 +1,6 @@
 import React from "react"
 import { Container,Jumbotron } from "react-bootstrap"
 import Layout from "../components/layout"
-import Section from "../components/section"
 import {Navigation} from "../components/navbar"
 import notfound from "../assets/notfound.jpg"
 
@@ -13,6 +12,6 @@ export default () => (
     <Jumbotron style={{ backgroundImage: `url(${notfound})`, backgroundSize: 'cover' }}>
       </Jumbotron>
     </Container>
-    <Section/>
+   
   </Layout>
 )
