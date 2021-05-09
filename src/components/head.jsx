@@ -48,7 +48,20 @@ export function Head({ data }) {
           "https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap",
           
         },
-      
+        {
+          // Yellowtail Font
+          rel: "preconnect",
+          href:
+          "https://fonts.gstatic.com",
+          
+        },
+        {
+          // Yellowtail Font
+          rel: "stylesheet",
+          href:
+          "https://fonts.googleapis.com/css2?family=Yellowtail&display=swap",
+          
+        },
       ]}
       
     >

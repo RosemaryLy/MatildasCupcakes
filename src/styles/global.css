@@ -2,6 +2,11 @@
   font-family: 'Lato', sans-serif;
 }
 
+h3 {
+  font-family: 'Yellowtail', cursive;
+ 
+}
+
 .jumbotron {
     position: relative;
     overflow: hidden;
