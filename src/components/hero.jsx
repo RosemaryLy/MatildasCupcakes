@@ -6,8 +6,8 @@ export default function Hero(){
     return (
         <Container fluid >
         <Card>
-        <div class="card">
-    <video class="img-fluid" autoplay muted loop>
+        
+    <video className="img-fluid" autoPlay muted loop>
     <source src={cupcakeCut} type="video/mp4"/>
     </video>
               <Card.ImgOverlay>
@@ -15,11 +15,10 @@ export default function Hero(){
                 <Card.Text>
                   Testing this out
                 </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
                 
               </Card.ImgOverlay>
               
-              </div>
+              
               </Card>
               </Container>
     )

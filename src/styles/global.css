@@ -26,12 +26,17 @@ h3 {
   }
 
 
-  .button {
-      color: #e27396;
+  .btn-primary {
+      background-color: #e27396 !important;
+      border-color: #e27396 !important;
+  }
+
+  a.nav-link{
+    color:#e27396 !important;
   }
 
   a.nav-link:hover{
-      color:#ffce5c
+      color:#ffce5c !important;
   }
 
 i {
@@ -40,8 +45,3 @@ i {
   font-size: 24px;
 }
 
-Button {
-  color: #fff;
-  background-color: #ea9ab2;
-  border-color: #007bff;
-}

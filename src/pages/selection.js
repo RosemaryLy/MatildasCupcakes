@@ -1,31 +1,72 @@
 import React from "react"
-import { Container, Card } from "react-bootstrap"
+import { Container, Card, CardColumns} from "react-bootstrap"
 import Layout from "../components/layout"
-
-import cupcakeCut from "../assets/cupcakecut.mp4"
 import {Navigation} from "../components/navbar"
-
+import choco from '../assets/weddingchocolate.jpg'
+import unicorn from '../assets/unicorncupcake.jpg'
+import strawberry from '../assets/strawberrycupcake.jpg'
+import vanilla from '../assets/vanillacupcake.jpg'
 
 export default () => (
   <Layout>
      <Navigation/>
     <Container fluid >
-    <Card>
+    <CardColumns>
+
+  <Card>
+    <Card.Img variant="top" src={choco} />
+    <Card.Body>
+      <Card.Title>Card title that wraps to a new line</Card.Title>
+      <Card.Text>
+        This is a longer card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+
+  <Card>
+    <Card.Img variant="top" src={unicorn} />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This card has supporting text below as a natural lead-in to additional
+        content.{' '}
+      </Card.Text>
+    </Card.Body>
     
-<video class="img-fluid" autoplay muted loop>
-<source src={cupcakeCut} type="video/mp4"/>
-</video>
-          <Card.ImgOverlay>
-          <Card.Title><h3> A little taste of heaven </h3></Card.Title>
-            <Card.Text>
-              Testing this out
-            </Card.Text>
-            <Card.Text>Last updated 3 mins ago</Card.Text>
-            
-          </Card.ImgOverlay>
-          
-          
-          </Card>
+  </Card>
+  
+  <Card className="text-center">
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This card has supporting text below as a natural lead-in to additional
+        content.{' '}
+      </Card.Text>
+      <Card.Text>
+        <small className="text-muted">Last updated 3 mins ago</small>
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <Card>
+    <Card.Img src={strawberry} />
+  </Card>
+  
+  <Card>
+  <Card.Img variant="top" src={vanilla} />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This card has even longer content than the first to
+        show that equal height action.
+      </Card.Text>
+      <Card.Text>
+        <small className="text-muted">Last updated 3 mins ago</small>
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</CardColumns>
     </Container>
     
   </Layout>

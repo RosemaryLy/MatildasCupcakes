@@ -21,7 +21,7 @@ export default function FeaturedSection(){
               Testing this out
             </Card.Text>
             <Card.Text>Last updated 3 mins ago</Card.Text>
-            <Button variant="outline-secondary">Go somewhere</Button>
+            <Button variant="primary">See More</Button>
           </Card.ImgOverlay>
         
           </Card>
@@ -35,7 +35,7 @@ export default function FeaturedSection(){
               Testing this out
             </Card.Text>
             <Card.Text>Last updated 3 mins ago</Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary">See More</Button>
           </Card.ImgOverlay>
           </Card>
           </Col>
@@ -50,7 +50,7 @@ export default function FeaturedSection(){
               Testing this out
             </Card.Text>
             <Card.Text>Last updated 3 mins ago</Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary">See More</Button>
           </Card.ImgOverlay>
           </Card>
           </Col>
@@ -63,7 +63,7 @@ export default function FeaturedSection(){
               Testing this out
             </Card.Text>
             <Card.Text>Last updated 3 mins ago</Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary">See More</Button>
           </Card.ImgOverlay>
           </Card>
           </Col>
