@@ -1,18 +1,19 @@
 import React from "react";
-import {Container,Navbar, Nav} from "react-bootstrap";
+import {Navbar, Nav} from "react-bootstrap";
 import logo from '../assets/MatildasCupcakes.png'
 
 export function Navigation () {
     return (
        
         <Navbar collapseOnSelect expand="lg">
+            <Navbar.Brand href="#home"><img className="center-block" src={logo} alt="logo for Matilda's Cupcake" height="300" width="300"></img></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-        <Nav.Link href="#home">About Us</Nav.Link>
+        <Nav.Link href="#home" variant="pink">About Us</Nav.Link>
         <Nav.Link href="#home">Our Selection</Nav.Link>
-        <Nav.Link href="/"><img className="center-block" src={logo} alt="logo for Matilda's Cupcake">
-            </img>
+        <Nav.Link href="/">
+            
         </Nav.Link>
         <Nav.Link href="#link">FAQ</Nav.Link>
         <Nav.Link href="#link">Contact</Nav.Link>
@@ -23,3 +24,4 @@ export function Navigation () {
    
     )
 }
+
