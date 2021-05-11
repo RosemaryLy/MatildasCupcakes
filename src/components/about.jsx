@@ -1,16 +1,17 @@
 import React from "react"
 import { Col, Container, Row, Card} from "react-bootstrap"
-import vanillacupcake from '../assets/vanillacupcake.jpg'
+import logo from '../assets/MatildasCupcakes.png'
 
 
 
 export default function About(){
     return (
         <Container fluid>
+            <div id="About">
             <Card className="mt-2">
         <Row className="no-gutters">
           <Col md={4}>
-          <Card.Img src={vanillacupcake} roundedCircle width="500" height="500" />
+          <Card.Img src={logo}  />
           </Col>
           <Col md={8} style={{backgroundColor:'pink'}}>
               <Card.Title>
@@ -23,6 +24,7 @@ export default function About(){
            </Col>
         </Row>
         </Card> 
+        </div>
       </Container>
 
     )

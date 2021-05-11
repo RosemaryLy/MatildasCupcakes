@@ -10,7 +10,7 @@ export function Navigation () {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-        <Nav.Link href="/" variant="pink">About Us</Nav.Link>
+        <Nav.Link href="#About" variant="pink">About Us</Nav.Link>
         <Nav.Link href="/selection">Our Selection</Nav.Link>
         
         <Nav.Link href="#link">FAQ</Nav.Link>
