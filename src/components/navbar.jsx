@@ -4,9 +4,11 @@ import logo from '../assets/MatildasCupcakes.png'
 
 export function Navigation () {
     return (
-        
-        <Navbar>
-            <Container>
+       
+        <Navbar collapseOnSelect expand="lg">
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav>
         <Nav.Link href="#home">About Us</Nav.Link>
         <Nav.Link href="#home">Our Selection</Nav.Link>
         <Nav.Link href="/"><img className="center-block" src={logo} alt="logo for Matilda's Cupcake">
@@ -14,8 +16,10 @@ export function Navigation () {
         </Nav.Link>
         <Nav.Link href="#link">FAQ</Nav.Link>
         <Nav.Link href="#link">Contact</Nav.Link>
-        </Container>
+        </Nav>
+    </Navbar.Collapse>
     </Navbar>
+   
    
     )
 }

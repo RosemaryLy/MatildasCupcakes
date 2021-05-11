@@ -4,6 +4,9 @@
 
 h3 {
   font-family: 'Yellowtail', cursive;
+  color: #e27396;
+  background-color: #FFDA85;
+  text-shadow: 2px 2px #ffffff;
  
 }
 
@@ -23,11 +26,11 @@ h3 {
   }
 
 
-  .nav-link {
+  a.nav-link {
       color: #e27396;
   }
 
-  .nav-link:hover{
+  a.nav-link:hover{
       color:#ffce5c
   }
 
@@ -35,4 +38,10 @@ i {
   color:#ea9ab2;
   padding: 0.5em;
   font-size: 36px;
+}
+
+Button {
+  color: #fff;
+  background-color: #ea9ab2;
+  border-color: #007bff;
 }
