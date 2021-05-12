@@ -13,7 +13,7 @@ export function Navigation () {
         <Nav.Link href="/#About">About Us</Nav.Link>
         <Nav.Link href="/selection">Our Selection</Nav.Link>
         
-        <Nav.Link href="#link">FAQ</Nav.Link>
+        <Nav.Link href="/FAQ">FAQ</Nav.Link>
         <Nav.Link href="/#Contact">Contact</Nav.Link>
         </Nav>
     </Navbar.Collapse>
