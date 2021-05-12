@@ -4,6 +4,7 @@ import FeaturedSection from "../components/section"
 import {Navigation} from "../components/navbar"
 import About from "../components/about"
 import Hero from "../components/hero"
+import Contact from "../components/contact"
 
 export default () => (
   <Layout>
@@ -12,5 +13,6 @@ export default () => (
   <Hero/>
     <FeaturedSection/>
     <About/>
+    <Contact/>
   </Layout>
 )
