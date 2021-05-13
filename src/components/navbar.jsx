@@ -10,11 +10,11 @@ export function Navigation () {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-        <Nav.Link href="/#About">About Us</Nav.Link>
-        <Nav.Link href="/selection">Our Selection</Nav.Link>
+        <Nav.Link href="/MatildasCupcakes/#About">About Us</Nav.Link>
+        <Nav.Link href="/MatildasCupcakes/selection">Our Selection</Nav.Link>
         
-        <Nav.Link href="/FAQ">FAQ</Nav.Link>
-        <Nav.Link href="/#Contact">Contact</Nav.Link>
+        <Nav.Link href="/MatildasCupcakes/FAQ">FAQ</Nav.Link>
+        <Nav.Link href="/MatildasCupcakes/#Contact">Contact</Nav.Link>
         </Nav>
     </Navbar.Collapse>
     </Navbar>
