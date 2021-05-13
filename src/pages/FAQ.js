@@ -12,7 +12,7 @@ export default () => (
       <Card.Img src={faq} alt="Cupcake background" />
       <Card.ImgOverlay>
     <details open>
-  <summary>Are you cupcakes peanut free?</summary>
+  <summary>Are your cupcakes peanut free?</summary>
   <p>Our cupcakes do not contain peanuts however they may be in contact with them.
   </p>
 </details>
