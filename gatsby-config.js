@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Matildas Cupcake Emporium",
   },
-  pathPrefix: `/gatsby-bootstrap-template`,
+  pathPrefix: `/MatildasCupcakes`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
