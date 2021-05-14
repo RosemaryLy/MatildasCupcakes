@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Card } from "react-bootstrap"
+import { Container, Card, Row, Col } from "react-bootstrap"
 import Layout from "../components/layout"
 import {Navigation} from "../components/navbar"
 import faq from "../assets/faq.jpg"
@@ -7,10 +7,13 @@ import faq from "../assets/faq.jpg"
 export default () => (
   <Layout>
      <Navigation/>
+     <Row>
     <Container fluid >
+      <Col fluid>
       <Card> 
       <Card.Img src={faq} alt="Cupcake background" />
       <Card.ImgOverlay>
+        
     <details open>
   <summary>Are your cupcakes peanut free?</summary>
   <p>Our cupcakes do not contain peanuts however they may be in contact with them.
@@ -48,7 +51,8 @@ export default () => (
 
 </Card.ImgOverlay>
 </Card>
+</Col>
     </Container>
-    
+    </Row>
   </Layout>
 )
