@@ -13,7 +13,7 @@ export default function FeaturedSection(){
       <Row>
         <Col md={3}>
         <Card>
-        <a href="/selection">
+        <a href="/MatildasCupcakes/selection">
           <Card.Img src={vanillacupcake} width="500" height="500" />
           <Card.ImgOverlay>
           </Card.ImgOverlay>
@@ -22,7 +22,7 @@ export default function FeaturedSection(){
         </Col>
         <Col md={3}>
         <Card className="text-center">
-        <a href="/selection">
+        <a href="/MatildasCupcakes/selection">
           <Card.Img src={unicorncupcake} width="500" height="500" />
           <Card.ImgOverlay>
           </Card.ImgOverlay>
@@ -33,7 +33,7 @@ export default function FeaturedSection(){
       
        <Col md={3}>
        <Card>
-       <a href="/selection">
+       <a href="/MatildasCupcakes/selection">
           <Card.Img src={chocolatecupcake} width="500" height="500" />
           <Card.ImgOverlay>
           </Card.ImgOverlay>
@@ -42,7 +42,7 @@ export default function FeaturedSection(){
           </Col>
        <Col md={3}>
        <Card>
-       <a href="/selection">
+       <a href="/MatildasCupcakes/selection">
           <Card.Img src={strawberrycupcake} width="500" height="500"/>
           <Card.ImgOverlay>
           </Card.ImgOverlay>

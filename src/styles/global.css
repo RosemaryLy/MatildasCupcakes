@@ -19,22 +19,39 @@ h2{
   .btn-primary {
       background-color: #e27396 !important;
       border-color: #e27396 !important;
+      
   }
 
-  .hero-title{
-    transform: translateY(80%);
-    display: inline-block;
-    margin: 5px;
+  .btn-primary a{
+    color:#ECEFF1 !important;
   }
   .hero-text {
-  width: 35em;
+  width: 20em;
   max-width: calc(100% - 2rem);
+ 
   }
-  .hero-button {
-    transform: translateY(80%);
-    display: inline-block;
-    margin: 5px;
+  .jumbotron {
+    position: relative;
+    overflow: hidden;
+    height:50vh;
+    background-color:#78909C;
   }
+  .jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    /*  object-fit is not supported on IE  */
+    object-fit: fill;
+  }
+ 
+  .jumbotron .container {
+    z-index: 2;
+    position: relative;
+    margin:0;
+  }
+  
 
   .card> a:hover{ 
     transform: skewY(20deg); }
